@@ -17,7 +17,7 @@ function App() {
     setError('');
     setResponse('');
 
-    const pat = ''; // Replace with your actual PAT (e.g., ghp_...)
+    const pat = ''; // Replace with actual PAT (e.g., ghp_...)
     console.log('Using PAT (first 10 chars):', pat.substring(0, 10) + '...');
 
     try {
@@ -28,7 +28,7 @@ function App() {
           'Authorization': `Bearer ${pat}`,
           'X-GitHub-Api-Version': '2022-11-28',
           'Content-Type': 'application/json',
-          'User-Agent': 'MyGrokApp/1.0 (salmantoha11223@gmail.com)', // Replace with your email
+          'User-Agent': 'MyGrokApp/1.0 (abcd123@gmail.com)', // Replace with email
         },
         body: JSON.stringify({
           model: 'xai/grok-3-mini',
