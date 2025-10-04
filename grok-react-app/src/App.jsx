@@ -17,7 +17,7 @@ function App() {
     setError('');
     setResponse('');
 
-    const pat = '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'; // Replace with your actual PAT (e.g., ghp_...)
+    const pat = ''; // Replace with your actual PAT (e.g., ghp_...)
     console.log('Using PAT (first 10 chars):', pat.substring(0, 10) + '...');
 
     try {
